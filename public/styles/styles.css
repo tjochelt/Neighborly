@@ -1,0 +1,63 @@
+.list-group-item {
+  line-height: 2;
+}
+
+/* font family from Google */
+body {
+  font-family: 'Raleway',
+    sans-serif;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 55px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+  font-weight: bold;
+}
+
+.topnav #logo {
+  float: left;
+  width: 200px;
+}
+
+#buttonImg {
+  width: 40px;
+}
+
+.rounded-circle {
+  width: 100px;
+  float: right;
+}
+
+.neighbor {
+  width: 110px;
+  padding: 0 20px 0 20px;
+  float: center;
+}
+
+#map {
+  height: 500px;
+  width: 700px;
+}

@@ -1,0 +1,49 @@
+<div class="container">
+    <button><a href="/logout">Logout</a></button>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">My Profile</h5>
+                    <img src="../img/user3.png" class="rounded-circle" alt="Profile Image">
+                    <p>
+                        <strong>ID</strong>: {{id}}</p>
+
+                    <p>
+                        <strong>Username</strong>: {{username}}</p>
+                    <p>
+                        <strong>Address</strong>: {{address}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">Tasks</h5>
+                    <p>
+                        <strong>Completed</strong>: {{user.id}}</p>
+                    <p>
+                        <p>
+                            <strong>Pending</strong>: {{user.username}}</p>
+                        <p>
+                            <strong>Neighborly Rank: </strong> {{user.address}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title">My Neighbors</h5>
+                    <img src="../img/user1.png" class="rounded-circle neighbor" alt="Neighbor 1">
+                    <img src="../img/users.png" class="rounded-circle neighbor" alt="Neighbor 2">
+                    <img src="../img/user4.png" class="rounded-circle neighbor" alt="Neighbor 3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="/dashboard">← Back To Home</a>
+</div>
